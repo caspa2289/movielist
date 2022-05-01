@@ -4,7 +4,7 @@ import { withAppHeader } from '@/HOCs'
 const Home: FC = () => {
     return (
         <div>
-            <div>LAKLMFLMAlm</div>
+            <div>LALMFLMAlm</div>
             <h1>scdrerve</h1>
         </div>
     )
