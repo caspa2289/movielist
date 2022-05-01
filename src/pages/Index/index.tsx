@@ -6,6 +6,7 @@ import { FC } from 'react'
 const Home: FC = () => {
     return (
         <div className={styles.container}>
+            <div></div>
             <Head>
                 <title>Create Next App</title>
                 <meta
