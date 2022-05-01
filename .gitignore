@@ -17,7 +17,6 @@
 
 # misc
 /.idea/
-/.husky/
 .DS_Store
 *.pem
 .eslintcache
