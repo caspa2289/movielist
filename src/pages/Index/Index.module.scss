@@ -2,5 +2,6 @@
 
 .wrapper {
   @extend .element__centered;
-  @extend .flex__align_center;
+  display: flex;
+  justify-content: space-evenly;
 }
