@@ -1,0 +1,6 @@
+@import 'styles/common.module';
+
+.wrapper {
+  @extend .element__centered;
+  @extend .flex__align_center;
+}

@@ -1,13 +1,20 @@
 import { FC } from 'react'
-import { withAppHeader } from '@/HOCs'
+import AppHeader from '@/components/AppHeader/AppHeader'
+import styles from './Index.module.scss'
 
 const Home: FC = () => {
     return (
-        <div>
-            <div>LALMFLMAlm</div>
-            <h1>scdrerve</h1>
-        </div>
+        <>
+            <AppHeader
+                title="MovieList - Main"
+                description="MovieList`s main page"
+            />
+            <main className={styles.wrapper}>
+                <div>LALMFLMAlm</div>
+                <h1>scdrerve</h1>
+            </main>
+        </>
     )
 }
 
-export default withAppHeader(Home)
+export default Home
