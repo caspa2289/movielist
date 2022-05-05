@@ -27,6 +27,7 @@
     "react-redux": "^8.0.1",
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
+    "rsuite": "^5.10.0",
     "sass": "^1.51.0"
   },
   "devDependencies": {
