@@ -1,0 +1,7 @@
+@import 'styles/common.module';
+
+.wrapper {
+  @extend .element__centered;
+  display: flex;
+  justify-content: space-evenly;
+}
