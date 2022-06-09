@@ -1,3 +1,1 @@
-import Index from '@/pages/Index'
-
-export default Index
+export { default } from '@/pages/Index'

@@ -5,3 +5,12 @@ export interface INextHeadProps {
 }
 
 export interface IAppHeaderProps extends INextHeadProps {}
+
+export interface IUserData {
+    name: string
+}
+
+export interface IUserProviderContext {
+    userData: IUserData
+    isLoading: boolean
+}

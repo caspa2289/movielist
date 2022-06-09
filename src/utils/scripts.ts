@@ -1,16 +1,7 @@
-import { MONTHS } from '@/utils/constants'
-
-/**
- * get array of days in current month
- */
-export const getDaysArray = () => {
-    const index = new Date().getMonth()
-    const currentMonth = MONTHS[index]
-    const days = []
-
-    for (let x = 1; x <= currentMonth.days; x++) {
-        days.push({ id: 'asdas', number: x })
-    }
-
-    return days
+export const getTimeOfDayGreeting = () => {
+    const time = new Date().getHours()
+    if (time >= 5 && time <= 11) return 'Доброе утро'
+    if (time >= 12 && time <= 17) return 'Добрый день'
+    if (time >= 18 && time <= 22) return 'Добрый вечер'
+    return 'Доброй ночи'
 }
